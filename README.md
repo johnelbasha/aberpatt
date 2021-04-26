@@ -24,10 +24,8 @@ Things you may want to cover:
 * ...
 
 * To do:
-1- install RSpec and Capybara check they works
-2- intall bootcamp and verify it works
-3- do a quick root test to homepage and then deploy to Heroku
-4- Spec: navigation links work between all pages
-5- Spec: each page contains the appropriate header text
+1- intall bootstrap and verify it works
+2- Spec: navigation links work between all pages
+3- Spec: each page contains the appropriate header text
 
 
