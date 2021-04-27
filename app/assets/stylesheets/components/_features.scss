@@ -1,0 +1,29 @@
+#cards-box {
+  max-width: 1440px;
+}
+
+
+.feature-card-wrapper {
+  height: 230px;
+  font-family: 'Roboto';
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.15);
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  max-width: 402px;
+
+  i {
+    padding-bottom: 65px;
+    padding-left: 10px;
+  }
+
+  h5 {
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  p {
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.25;
+  }
+}
