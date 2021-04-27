@@ -27,7 +27,6 @@ Things you may want to cover:
 1- Hero Banner + finish design
 2- Sales pitch
 3- About
-4- Footer
 5- Why Care about .... + Design
 6- Price + Design
 7- Contact
