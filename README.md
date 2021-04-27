@@ -24,11 +24,10 @@ Things you may want to cover:
 * ...
 
 * To do:
-1- Hero Banner + finish design
 2- Sales pitch
 3- About
-5- Why Care about .... + Design
-6- Price + Design
+5- Why Care about ....
+6- Price
 7- Contact
 8- Get email to work using GIL FONCE email account
 9- Responsive Design
