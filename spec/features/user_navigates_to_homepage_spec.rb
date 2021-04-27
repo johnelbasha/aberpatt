@@ -14,5 +14,10 @@ RSpec.feature "homepage" do
     expect(page).to have_link("Contact")
     expect(page).to have_content("4 Albury View")
     expect(page).to have_content("Telephone:")
+    expect(page).to have_content("Flexible")
+    expect(page).to have_content("Internal Examination")
+    expect(page).to have_content("Double Checking")
+    expect(page).to have_content("No Rush")
+    expect(page).to have_content("Protecting Lives")
   end
 end
