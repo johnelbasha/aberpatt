@@ -1,0 +1,22 @@
+.hero {
+  height: 790px;
+  background-image: linear-gradient(rgba(1, 1, 1, 0.65), rgba(1, 1, 1, 0.65)), url(PAT_1.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: bottom center;
+  font-family: 'Roboto';
+  color: white;
+
+  h1 {
+    font-size: 64px;
+    letter-spacing: 0.06em;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 0.06em;
+  }
+}
