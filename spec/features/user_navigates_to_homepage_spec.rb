@@ -12,5 +12,7 @@ RSpec.feature "homepage" do
     expect(page).to have_link("Why PAT Test?")
     expect(page).to have_link("Prices")
     expect(page).to have_link("Contact")
+    expect(page).to have_content("4 Albury View")
+    expect(page).to have_content("Telephone:")
   end
 end
