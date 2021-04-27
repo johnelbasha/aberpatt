@@ -8,5 +8,9 @@ RSpec.feature "homepage" do
     expect(page).to have_content("Lewis")
     expect(page).to have_content("07760668495")
     expect(page).to have_content("enquiries@aberpat.com")
+    expect(page).to have_link("Home")
+    expect(page).to have_link("Why PAT Test?")
+    expect(page).to have_link("Prices")
+    expect(page).to have_link("Contact")
   end
 end
