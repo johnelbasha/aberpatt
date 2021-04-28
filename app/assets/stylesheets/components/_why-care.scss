@@ -1,0 +1,50 @@
+#why {
+  font-family: 'Roboto';
+  text-align: center;
+  padding-top: 60px;
+
+  h1 {
+    font-weight: 900;
+    font-size: 46px;
+    color: rgb(41, 41, 41);
+  }
+
+  .subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+  }
+
+  img {
+    height: 387px;
+    margin-bottom: 35px;
+  }
+
+  .text-column {
+    line-height: 32px;
+    max-width: 680px;
+    margin: 20px auto;
+    font-family: Georgia;
+    font-weight: 400;
+    text-align: left;
+    font-size: 21px;
+    color: #292929;
+
+    h3 {
+      font-family: 'Roboto';
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-size: 30px;
+    }
+
+    .quote {
+      max-width: 520px;
+      margin: 20px auto;
+      color: rgb(75, 75, 75);
+      font-size: 30px;
+      margin-bottom: 100px;
+      font-weight: 300;
+    }
+  }
+}
