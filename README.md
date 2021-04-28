@@ -26,7 +26,6 @@ Things you may want to cover:
 * To do:
 1- Price
 2- Contact
-3- Get email to work using GIL FONCE email account
-4- Responsive Design
+3- Responsive Design
 
 
