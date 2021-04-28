@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/why', to: 'pages#why'
   get '/prices', to: 'pages#prices'
   get '/contact', to: 'pages#contact'
+  resources :queries, only: :create
 end

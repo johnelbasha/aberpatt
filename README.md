@@ -24,10 +24,9 @@ Things you may want to cover:
 * ...
 
 * To do:
-1- Why Care about ....
-2- Price
-3- Contact
-4- Get email to work using GIL FONCE email account
-5- Responsive Design
+1- Price
+2- Contact
+3- Get email to work using GIL FONCE email account
+4- Responsive Design
 
 
