@@ -1,0 +1,16 @@
+<h1>Your website has recieved a new query</h1>
+<p>Here is the message that was sent to your user:</p>
+
+
+<p>Hi <%= @query.name %>,</p>
+<p>Thanks for you message. We wanted to let you know that we've recieved it and should respond by e-mail within 2 hrs (Mon-Fri only).</p>
+<p>For you records, here are the details for your message:</p>
+<ul>
+  <li>Name: <%= @query.name %> </li>
+  <li>e-mail: <%= @query.email %> </li>
+  <li>message <%= @query.message %> </li>
+  <li>created <%= @query.created_at %> </li>
+</ul>
+
+<p>Thank you,</p>
+<p>Lewis</p>
