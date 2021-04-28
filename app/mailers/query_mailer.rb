@@ -12,7 +12,7 @@ class QueryMailer < ApplicationMailer
 
   def notification(query)
     @query = query
-    mail to: 'enquiries@aberpat.com', subject: "We're dealing with your query"
+    mail to: 'enquiries@aberpat.com', subject: "You have a new query"
     # mail to: 'sales@gilfonce.com', subject: "We're dealing with your query"
   end
 
