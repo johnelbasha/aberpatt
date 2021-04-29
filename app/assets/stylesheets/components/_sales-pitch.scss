@@ -1,5 +1,5 @@
 #sales-pitch {
-  height: 200px;
+  min-height: 200px;
   font-family: 'Roboto';
   font-style: italic;
 
@@ -14,4 +14,24 @@
     font-weight: bold;
     color: rgba(0, 0, 0, 0.8);
   }
+}
+
+@media(max-width: 768px) {
+  #sales-pitch {
+    margin-top: 40px;
+  }
+}
+
+@media(max-width: 568px) {
+  h3 {
+    font-size: 20px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #sales-pitch p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
 }
