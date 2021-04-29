@@ -1,6 +1,7 @@
 #prices-box {
   background: linear-gradient(116.05deg, #C2D3CD 33.87%, #FFFFFF 98.19%);
   font-family: Roboto;
+  padding-bottom: 50px;
 
   h1 {
     padding-top: 50px;
@@ -11,34 +12,16 @@
     max-width: 680px;
   }
 
-  .price-card {
-    background-color: #847E89;
-    width: 217px;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 20px;
-    border-radius: 8px;
-    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.25);
-  }
 
-  .price-name {
-    font-size: 18px;
-    text-transform: uppercase;
-  }
 
-  .price-description {
+  
+
+  .price-notes {
     font-size: 24px;
-    font-weight: 900;
-    color: #C2D3CD;
-  }
-
-  .price-price {
-    font-size: 36px;
-    font-weight: 900;
-    color: #f9f9f9;
+    color: #625F5F;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.05em;
   }
 
   .price-card:nth-of-type(1) {
@@ -68,4 +51,130 @@
     color: rgba(100, 0, 148, 1);
 
   }
+}
+
+.price-card {
+  background-color: #847E89;
+  width: 217px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 20px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.price-name {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.price-description {
+  font-size: 24px;
+  font-weight: 900;
+  color: #C2D3CD;
+  line-height: 24px;
+}
+
+.price-description-microwave {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #C2D3CD;
+  line-height: 24px;
+}
+
+.price-price {
+  font-size: 36px;
+  font-weight: 900;
+  color: #f9f9f9;
+  margin-bottom: 0;
+}
+
+.price-uom {
+  color: #f9f9f9;
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+
+.good-to-know {
+  font-family: 'Roboto';
+
+  .pricing-details {
+    background-color: #847E89;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+
+    .details-heading {
+      color: rgb(249, 249, 249);
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: 0.05em;
+      font-style: italic;
+      margin-bottom: 0;
+    }
+
+    .details-detail {
+      color: rgb(223, 223, 223);
+      font-weight: 500;
+      font-style: italic;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+
+    hr {
+      // color: rgba(223, 223, 223, 1);
+      border: 1px solid rgba(223, 223, 223, .6);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+      
+    .details-footnote {
+      color: rgb(194, 211, 205);
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.05em;
+      margin-top: 50px;
+      text-align: right;
+    }
+  }
+
+
+
+  h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 46px;
+    color: rgba(2, 2, 2, 0.7);
+  }
+
+  #price-notes-table {
+    max-width: 702px;
+  }
+
+
+  .price-notes-title {
+    background-color: #9FA4A9;
+    color: rgb(226, 226, 226);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    font-style: italic;
+    text-align: center;
+    height: 60px;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+img#microwave {
+  color: yellow;
 }
