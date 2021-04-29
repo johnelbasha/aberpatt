@@ -1,6 +1,6 @@
 #navigation {
   background-color: #9FA4A9 !important;
-  height: 120px;
+  min-height: 120px;
 
   a.nav-link {
     margin-left: 12px;
@@ -17,6 +17,6 @@
   }
 
   #logo {
-    margin-top: -25px;
+    // margin-top: -25px;
   }
 }

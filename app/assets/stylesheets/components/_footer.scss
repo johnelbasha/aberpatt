@@ -2,6 +2,8 @@
   background-color: #847E89;
   color: #FFFDFD;
   font-family: 'Roboto';
+  padding-top: 30px;
+  padding-bottom: 10px;
 
   .footer-header {
     font-size: 22px;
@@ -32,6 +34,19 @@
 
     span {
       // letter-spacing: 4px;
+    }
+  }
+}
+
+@media (max-width: 860px ) {
+
+  #footer {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    img {
+      // margin-top: -60px;
+      margin-bottom: 20px;
     }
   }
 }

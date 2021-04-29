@@ -23,7 +23,6 @@
     }
 }
 
-
 .contact-form {
   background-color: rgb(194, 211, 205);
   border-radius: 8px;
@@ -70,4 +69,12 @@
   color: rgba(255, 255, 255, 0.8);;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+@media(max-width: 590px) {
+  .contact-form {
+    width: 400px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
 }

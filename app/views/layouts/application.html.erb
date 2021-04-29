@@ -12,12 +12,16 @@
   </head>
 
   <body>
-    <%= render "shared/top_contact" %>
-    <%= render "shared/navigation" %>
-     <% flash.each do |name, msg| %>
-      <%= content_tag :div, msg, class: name %>
-    <% end %>
-    <%= yield %>
-    <%= render "shared/footer" %>
+    <div class="d-flex justify-content-center">
+      <div class="main-content">
+        <%= render "shared/top_contact" %>
+        <%= render "shared/navigation" %>
+        <% flash.each do |name, msg| %>
+          <%= content_tag :div, msg, class: name %>
+        <% end %>
+        <%= yield %>
+        <%= render "shared/footer" %>
+      </div>
+    </div>
   </body>
 </html>

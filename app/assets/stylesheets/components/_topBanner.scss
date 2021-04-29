@@ -1,7 +1,7 @@
 #headerContact {
   background-color: #847E89;
   color: #FFFDFD;
-  height: 88px;
+  min-height: 88px;
   padding-left: 40px;
   padding-right: 40px;
   font-family: 'Roboto';
@@ -9,5 +9,11 @@
     margin-left: 12px;
     font-size: 24px;
     font-weight: 300;
+  }
+}
+
+@media(max-width: 568px) {
+  #headerContact {
+    flex-direction: column;
   }
 }
