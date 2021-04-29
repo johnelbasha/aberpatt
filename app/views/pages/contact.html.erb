@@ -1,17 +1,20 @@
-<div class="container" id="contact">
-  <h1>Let's Talk</h1>
-  <h3>We'd love to hear from you!</h3>
-  <p>Send us an email- enquiries@aberpat.com or call us on 07760668495.</p>
-  <p>Alternatively, send us your details using the form below:</p>
-
-  <div class="container contact-form">
-    <h3>Don't call us, we'll call you!</h3>
-    <%= simple_form_for @query do |q| %>
-    <%= q.input :name, label: false, placeholder: 'Your name' %>
-    <%= q.input :email, label: false, placeholder: 'Your email address' %>
-    <%= q.input :number, label: false, placeholder: 'Your phone number' %>
-    <%= q.input :message, input_html: { class: 'message' }, label: false, placeholder: 'Your message'  %>
-    <%= q.submit 'Submit',id: 'form-button' %>
-    <% end %>
+<main>
+  <div class="container" id="contact">
+    <h1>Let's Talk</h1>
+    <h3>We'd love to hear from you!</h3>
+    <p>Send us an email- enquiries@aberpat.com or call us on 07760668495.</p>
+    <p>Alternatively, send us your details using the form below:</p>
+  
+    <div class="container contact-form">
+      <h3>Don't call us, we'll call you!</h3>
+      <%= simple_form_for @query do |q| %>
+      <%= q.input :name, label: false, placeholder: 'Your name' %>
+      <%= q.input :email, label: false, placeholder: 'Your email address' %>
+      <%= q.input :number, label: false, placeholder: 'Your phone number' %>
+      <%= q.input :message, input_html: { class: 'message' }, label: false, placeholder: 'Your message'  %>
+      <%= q.submit 'Submit',id: 'form-button' %>
+      <% end %>
+    </div>
   </div>
-</div>
+</main>
+
