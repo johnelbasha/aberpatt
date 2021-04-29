@@ -24,8 +24,7 @@ Things you may want to cover:
 * ...
 
 * To do:
-1- Price
-2- Contact
-3- Responsive Design
+1- Responsive Design
+2- SEO/Accessibility/etc...
 
 
