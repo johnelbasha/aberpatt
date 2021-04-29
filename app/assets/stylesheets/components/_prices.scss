@@ -86,3 +86,69 @@
 
   }
 }
+
+.good-to-know {
+  font-family: 'Roboto';
+
+  .pricing-details {
+    background-color: #847E89;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+
+    .details-heading {
+      color: rgb(249, 249, 249);
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: 0.05em;
+      font-style: italic;
+      margin-bottom: 0;
+    }
+
+    .details-detail {
+      color: rgb(223, 223, 223);
+      font-weight: 500;
+      font-style: italic;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+
+    hr {
+      // color: rgba(223, 223, 223, 1);
+      border: 1px solid rgba(223, 223, 223, .6);
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+  }
+
+
+
+  h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 46px;
+    color: rgba(2, 2, 2, 0.7);
+  }
+
+  #price-notes-table {
+    max-width: 702px;
+  }
+
+
+  .price-notes-title {
+    background-color: #9FA4A9;
+    color: rgb(226, 226, 226);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    font-style: italic;
+    text-align: center;
+    height: 60px;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
