@@ -48,3 +48,17 @@
     }
   }
 }
+
+@media(max-width: 992px){
+  #why img {
+    width: 700px;
+    height: 300px;
+  }
+}
+
+@media(max-width: 768px){
+  #why img {
+    width: 500px;
+    height: 215px;
+  }
+}
