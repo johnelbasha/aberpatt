@@ -12,6 +12,7 @@
       <%= q.input :email, label: false, placeholder: 'Your email address' %>
       <%= q.input :number, label: false, placeholder: 'Your phone number' %>
       <%= q.input :message, input_html: { class: 'message' }, label: false, placeholder: 'Your message'  %>
+      <%= recaptcha_tags %>
       <%= q.submit 'Submit',id: 'form-button' %>
       <% end %>
     </div>
