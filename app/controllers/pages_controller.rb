@@ -9,6 +9,6 @@ class PagesController < ApplicationController
   end
 
   def contact
-    @query = Query.new
+    # @query = Query.new
   end
 end
