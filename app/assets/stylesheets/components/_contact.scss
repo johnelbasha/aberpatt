@@ -1,5 +1,5 @@
 #contact {
-  padding-top: 60px;
+  padding-top: 10px;
   font-family: 'Roboto';
 
   h1 {
@@ -26,7 +26,7 @@
 .contact-form {
   background-color: rgb(194, 211, 205);
   border-radius: 8px;
-  width: 680px !important;
+  width: 580px !important;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -77,4 +77,14 @@
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
+}
+
+td {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+table {
+  margin: 0 auto
 }
